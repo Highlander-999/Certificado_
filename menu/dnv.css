@@ -1,0 +1,242 @@
+.pselect {
+    text-align: left;
+    font-weight: 600;
+                        /*font-weight - grossura da fonte, fonte com a linha fina ou grossa*/
+    font-size: 22px;
+
+}
+
+body
+{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#log
+{
+   float: right;
+   cursor: pointer;
+   transition: ease-in-out 0.2s;
+  
+}
+
+#log:hover
+{
+   filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.342));
+   transform: scale(1.05);
+}
+
+#inpselect {
+    float: left;
+    width: 500px;
+    height: 35px;
+    padding-left: 10px;
+    border-radius: 5px;
+    border: solid 1px;
+    transition: 0.3s ease-in-out;
+    /*transition - imagina que voce aplica hover em um botão com fundo azul pra quando passar o mouse em cima, 
+                                            o botao fica com fundo laranja, e tempo que isso acontece é praticamente instantaneo, essa TRANSIÇÃO, ou seja, o transition controla esse tempo de mudança e o ease-in-out é pra deixar 
+                                                mais suave*/
+    font-size: 22px;
+}
+
+
+/* :focus É quando você foca ou seleciona alguma coisa, por exemplo o input, quando você clica para escrever algo nele, ele está sendo focado, ex: */
+
+#inpselect:focus {
+    border: solid 1px #0c89fc;
+    outline: none;
+    transition: 0.2s ease-in-out;
+}
+
+#inpnoselect
+{
+    font-size: 22px;
+    float: left;
+    width: 500px;
+    height: 35px;
+    padding-left: 10px;
+    border-radius: 5px;
+    border: solid 1px #0c89fc;
+    transition: 0.3s ease-in-out;
+    text-align: left;
+    background-color: #57b7cc48;
+}
+
+
+
+/* :hover É quando se passa o mouse sobre alguma coisa, dai você pode aplicar o efeito que quiser quando isso acontecer, ex: */
+
+.menutop:hover {
+    background-color: #c86b04;
+    width: 200px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.jumbotron {
+    box-shadow: 0px 0px 55px 7px #cfcfcfc9;
+    border: solid 2px #28a7e9;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.700);
+    margin-top: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+
+#selcurso {
+    width: 300px;
+    height: 35px;
+    padding-left: 5px;
+    border-radius: 5px;
+    border: solid 1px;
+    float: left;
+
+
+
+}
+
+#selcurso:focus {
+    outline: solid 1px #0c89fc;
+    /*outline - mesma coisa de border, so não ocupa espaço, feita mais pra destacar alguma coisa*/
+    border: none;
+}
+
+option {
+    background-color: #008bf6;
+    color: white;
+    font-weight: 500;
+}
+
+button {
+    background-color: blue;
+}
+
+#usushow:hover {
+    color: #5e5e5e;
+}
+
+#usushow {
+    color: #777777;
+    margin-left: 20px;
+
+}
+
+h2 {
+    font-weight: 400;
+}
+
+.nav {
+    background-color: #fff;
+    box-shadow: 0px 0px 20px 15px #95959557;
+    border-top: #28a7e9 3px solid;
+    height: 70px;
+    padding: 10px;
+    line-height: 40px;
+}
+
+.mnu
+{
+  margin-left: 500px;
+}
+
+
+
+
+a {
+    color: #777777;
+    margin-right: 25px;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+a:hover {
+    color: #28a7e9;
+}
+
+
+
+@media only screen and (max-width: 1660px) {
+    .mnu {
+        margin-left: 50px;
+    }
+    
+    
+
+}
+
+@media only screen and (max-width: 1360px) {
+    .mnu {
+        margin-left: 200px;
+    }
+
+    #usushow {
+        margin-left: 100px;
+    }
+
+
+}
+
+@media only screen and (max-width: 1222px) {
+    .mnu {
+        margin-left: 170px;
+    }
+
+    #usushow {
+        margin-left: 10px;
+    }
+
+
+}
+
+
+
+
+ @media only screen and (max-width: 1110px) {
+    .mnu {
+        margin-left: auto;
+        
+        
+    }
+
+    #usushow {
+        margin-left: 10px;
+    }
+
+    .nav{
+        height: fit-content;
+    }
+
+
+} 
+
+@media only screen and (max-width: 1110px) {
+  
+    #inpselect
+    {
+        width: 350px;
+    }
+
+
+} 
+
+
+button
+{
+ margin-top: -10px;
+
+}
+
+
+.bi-printer{
+    height: 2em;
+    width: 2em;
+    transition: 0.2s ease-in-out;
+    margin-left: 25px;
+   
+   
+    
+}
+
+
